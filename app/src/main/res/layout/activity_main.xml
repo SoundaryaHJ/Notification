@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="304dp"
+        android:layout_height="45dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="Notification"
+        android:textColor="@color/black"
+        android:textSize="24dp" />
+
+    <EditText
+        android:id="@+id/title"
+        android:layout_width="306dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/background"
+        android:hint="Title"
+        android:paddingLeft="10dp"
+        android:textColor="@color/cardview_dark_background" />
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="306dp"
+        android:layout_height="52dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/background"
+        android:hint="Message"
+        android:paddingLeft="10dp"
+        android:textColor="@color/cardview_dark_background" />
+
+    <Button
+
+        android:layout_width="282dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:onClick="sendOnChannel1"
+        android:text="Send on channel 1"
+        app:backgroundTint="@color/teal_700" />
+
+    <Button
+
+        android:layout_width="284dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:onClick="sendOnChannel2"
+        android:text="Send on channel 2"
+        app:backgroundTint="@color/teal_700" />
+
+
+</LinearLayout>
